@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Gabarito', cursive;
+    color:white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height:65px;
+    align-items: center;
+    background-color: black;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+   
+}
+.brand img {
+    padding: 0px 8px;
+}
+.container{
+    height:65vh;
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    width:80%;
+    padding: 20px;
+    border-radius: 12px;
+    background-image: url("../images/AIMM_Vocalist_Studio.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#myProgressBar{
+    width:80vw;
+    
+}
+.bottom{
+    position: sticky;
+    bottom: 0px;
+    height:110px;
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.icons{
+   
+    text-align: center;
+    margin-top: 15px;
+}
+.fa-solid{
+    font-size: 25px;
+    cursor: pointer;
+    /* margin-left: 10px; */
+}
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    width:70%;
+    /* padding: 5px; */
+    color:black;
+    margin:12px 0px;
+    border-radius: 30px;
+}
+.songItem img{
+    /* width:23px; */
+    margin:0px 23px;
+}
+.timeStamps{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.songTitle{
+    padding-top: 10px;
+}
+.songInfo img{
+    height:50px;
+    width:50px;
+    margin-top: -15px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    /* padding-top: 30px; */
+    /* margin-top: 20px; */
+
+}
+.songInfo{
+    margin-top: 20px;
+}
+.songList{
+    overflow: auto;;
+    width:500px
+}
+h1{
+    text-align: center;
+}
+
